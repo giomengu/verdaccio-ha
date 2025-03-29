@@ -1,4 +1,4 @@
-# Home Assistant Add-on: Verdaccio add-on
+# Home Assistant Add-on: Verdaccioadd-on
 
 ## How to use
 
