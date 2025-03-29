@@ -15,9 +15,6 @@ ports:
   4873/tcp: 4873
 map:
   - share:rw
-  - config:rw
-  - addons:rw
-  - ssl
 options:
   message: "Hello world..."
 schema:
