@@ -11,6 +11,8 @@ arch:
   - amd64
   - i386
 init: false
+boot: auto
+startup: services
 ports:
   4873/tcp: 4873
 map:
