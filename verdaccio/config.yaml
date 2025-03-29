@@ -1,7 +1,7 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Verdaccio
 version: "1.2.1"
-slug: "verdaccio"
+slug: verdaccio
 description: Verdaccio add-on
 url: "https://github.com/giomengu/verdaccio-ha/tree/main/verdaccio"
 arch:
@@ -11,14 +11,11 @@ arch:
   - amd64
   - i386
 init: false
-startup: services
-boot: auto
 ports:
   4873/tcp: 4873
 map:
   - share:rw
   - config:rw
-  - share:rw
   - addons:rw
   - ssl
 options:
