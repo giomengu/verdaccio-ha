@@ -19,4 +19,3 @@ options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "verdaccio/verdaccio:latest"

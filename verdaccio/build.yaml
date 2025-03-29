@@ -1,0 +1,6 @@
+build_from:
+  amd64: verdaccio/verdaccio:latest
+  aarch64: verdaccio/verdaccio:latest
+  armv7: verdaccio/verdaccio:latest
+  armhf: verdaccio/verdaccio:latest
+  i386: verdaccio/verdaccio:latest
